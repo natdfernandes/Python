@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<h2>Editar Contato</h2>
+<form method="POST">
+    <div>
+
+        <label>Nome Completo:</label>
+        <input type="text" name="name" value="{{ contact.name }}" required>
+    </div>
+    <div>
+
+        <label>Número de Telefone:</label>
+        <input type="tel"  placeholder="(99) 9999-9999" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{4})-([0-9]{4})" name="phone" value="{{ contact.phone }}" required>
+    </div>
+    <div>
+
+        <label>E-mail:</label>
+        <input type="email" name="email" value="{{ contact.email }}" required>
+    </div>
+    <button type="submit">Salvar</button>
+</form>
+{% endblock %}

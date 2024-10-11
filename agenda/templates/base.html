@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+</html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>agenda</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='agenda.css')}}">
+</head>
+
+<body>
+    <header>
+        <h1>Agenda</h1>
+        <nav>
+            <a href="/">📄 Listar</a>
+            <a href="/add">➡️ Inserir</a>
+            </a>
+        </nav>
+    </header>
+    <main>
+        {% block content %} {% endblock %}
+    </main>
+</body>
+
+</html>

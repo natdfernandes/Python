@@ -1,0 +1,35 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+}
+
+header>h1{
+    background-color:#4031AD;
+    color: white;
+    display: inline-block;
+    border-radius: 32px;
+    padding: 8px;
+
+}
+a{
+    text-decoration: none;
+    color: #1B0F75;
+    font-weight: bold;
+}
+table{
+    width: 100%;
+}
+input{
+    border-radius: 8px;
+    padding: 4px;
+}
+button{
+    background-color: #1B0F75;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 4px;
+}
+form{
+    display: flex;
+}
